@@ -1,0 +1,152 @@
+
+  /* left: 50%;  */
+    /* transform: translateX(-50%) translateY(-10px);  */
+
+   /* .card-container {
+    background-color: #000000;
+    padding: 30px;
+    height: 600px; 
+  }
+  
+  .card-wrapper {
+    position: relative;
+  }
+  
+  .card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer;
+    transform-origin: bottom center; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #ff4dea, 0 0 120px #ff4dea, 0 0 160px #526061, 0 0 200px #34abff, 0 0 240px #526061, 0 0 280px #526061;
+    background-image: linear-gradient(45deg, #ff4dea, #808fb9, #526061);
+    background-size: 300% 300%;
+    animation: glowing 2s linear infinite;
+    transform: translateY(-10px); 
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .card-icon {
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .new-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+  
+    z-index: 1;
+     transform-origin:  center; 
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .card-wrapper:hover .new-card{
+    display: block; 
+    transform: translateX(-50%) translateY(0); 
+  }
+   
+ */
+
+ .card-container {
+    background-color: #3a3939;
+    padding: 30px;
+    height: 400vh;
+  }
+  
+  .card-wrapper {
+    position: relative;
+  }
+  
+  .card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer;
+    transform-origin: center;
+    margin-top: 150px;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #e8f6ee, 0 0 120px #ff4dea, 
+    0 0 160px #f59dff, 0 0 200px #34abff ;
+    background-image: linear-gradient(45deg, #ff4dea, #4daed7, #8ee7c3, #d88ee7);
+    background-size: 300% 300%;
+    animation: glowing 2s linear infinite;
+    transform: translateY(-80px);
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .card-icon {
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .new-card {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* transform: translateY(100%); */
+    backface-visibility: hidden;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+    transition-delay: 0.3s;
+    margin-top: -100px;
+  }
+  
+  .card-wrapper:hover .new-card {
+    transform: translateY(0);
+  }
+  

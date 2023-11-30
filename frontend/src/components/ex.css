@@ -1,0 +1,194 @@
+/* 
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    background-color: #d2cece;
+    color: #000000;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 2%;
+    top: 0;
+  }
+  
+  .main-content {
+    flex-grow: 1; 
+    padding: 2rem;
+    margin-top: 4rem; 
+    background-color: #f9f9f9;
+  }
+   */
+
+
+
+   /* FixedNavbar.css */
+
+/* Customize the styling here */
+
+
+/* ex.css */
+nav {
+  background: linear-gradient(#e7e4e4, rgb(68, 81, 145)) ;
+  padding: 10px 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+Link {
+  color: #fff;
+  text-decoration: none;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+
+/* .card4-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+} */
+
+
+/* 
+.card4 {
+  flex: 1;
+  max-width: calc(25% - 20px);
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 300px;
+  background-image: url(tra.jpg);
+ 
+ 
+}  */
+
+/* 
+.card4-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+   
+}
+.card6,
+.card7,
+.card5,
+ .card4 {
+  flex: 1;
+  max-width: calc(18% - 20px);
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 300px;
+  background-image: url(z.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  transition: transform 0.4s;
+  
+  border-color: black;
+}
+
+
+.card5{
+  background-image: url(m.jpg);
+  max-width: calc(18% - 20px);
+}
+
+.card6{
+  background-image: url(l.jpg);
+}
+
+.card7{
+  background-image: url(v.jpg);
+}
+
+.card4:hover{
+  transform: scale(1.1);
+}
+
+.card5:hover{
+  transform: scale(1.1);
+}
+
+.card6:hover{
+  transform: scale(1.1);
+}
+
+.card7:hover{
+  transform: scale(1.1);
+}
+ */
+
+
+
+ 
+
+/* Style the container for the cards */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Style the individual cards */
+.c4 {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c4 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.c4 .c4-body {
+  padding: 15px;
+}
+
+.c4 .c4-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.c4 .c4-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .container1 {
+    justify-content: center;
+  }
+
+  .c4 {
+    width: calc(50% - 20px);
+  }
+}

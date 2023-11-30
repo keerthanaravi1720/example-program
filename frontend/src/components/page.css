@@ -1,0 +1,154 @@
+/* App.css */
+
+
+  
+  .navbar {
+    /* background:linear-gradient(to bottom, rgb(219, 235, 255), rgb(247, 194, 194)); */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    
+   
+  }
+  /* /* background: linear-gradient(to bottom, #cadfff, #fcf3d8,rgb(255, 196, 196));  */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .body-content {
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;
+  
+  
+  }
+
+
+  /* Your custom CSS */
+.cd {
+    /* Add styling for the Card component */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background:linear-gradient(to bottom, rgb(214, 240, 255), rgb(255, 189, 189));
+  }
+  
+  /* If using Bootstrap's grid system */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Adjust for negative margin */
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px; /* Add padding to create spacing between columns */
+  }
+  
+  .cd1,
+  .cd2,
+  .cd3{
+    
+        /* Add styling for the Card component */
+        margin: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        transition: transform 0.4s;
+        background:linear-gradient(to bottom, rgb(214, 240, 255), rgb(255, 189, 189));
+      }
+.cd1{
+    border-color: blue;
+}
+
+
+.cd2{
+    border-color: rgb(255, 196, 0);
+}
+
+.cd3{
+    border-color: rgb(72, 255, 0);
+}
+.cd1:hover {
+    transform: scale(1.1);
+  }
+  
+  .cd2:hover {
+    transform: scale(1.1);
+  }
+  
+  .cd3:hover {
+    transform: scale(1.1);
+  }
+
+ /* Your existing CSS */
+/* ... */
+
+/* Social Icons Sidebar */
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Change to the desired hover color */
+  }
+  
+
+
+  .registration-card{
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(145, 145, 255);
+  border-radius: 8px;
+  transition: transform 0.4s;
+  height: 350px;
+  background:linear-gradient(to bottom, rgb(126, 204, 249), rgb(244, 125, 125));
+  margin: auto;
+  
+  }
+  .from-group{
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .register-button{
+    /* padding: 12px; */
+    gap: 10px;
+    margin-top: 10px;
+    background:linear-gradient(to bottom, rgb(145, 145, 255), rgb(255, 130, 130));
+  }
+
+  .whole{ 
+    /* background:linear-gradient(to bottom, rgb(126, 204, 249), rgb(244, 125, 125)); */
+    background-color: #f2f1f1;
+  }
+
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
